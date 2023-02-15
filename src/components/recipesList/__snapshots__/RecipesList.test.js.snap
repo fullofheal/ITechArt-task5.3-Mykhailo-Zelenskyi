@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RecipesList matches snapshot 1`] = `
+<div
+  className="recipes__list"
+  data-testid="RecipesList"
+>
+  <h2>
+    List of all added recipes
+  </h2>
+  <input
+    className="recipes__search"
+    onChange={[Function]}
+    placeholder="Search by tags, name, or country of origin"
+    type="text"
+    value=""
+  />
+</div>
+`;

@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RecipesList matches snapshot 1`] = `
+<form
+  className="search__wrapper"
+  data-testid="SearchRecipes"
+  onSubmit={[Function]}
+>
+  <h2>
+    Search a new recipe by one of the following criteria:
+  </h2>
+  <div
+    className="search__options"
+  >
+    <button
+      className="search__option"
+      onClick={[Function]}
+      type="button"
+    >
+      Category
+    </button>
+    <button
+      className="search__option"
+      onClick={[Function]}
+      type="button"
+    >
+      Ingredients
+    </button>
+    <button
+      className="search__option"
+      onClick={[Function]}
+      type="button"
+    >
+      Country
+    </button>
+    <button
+      className="search__option"
+      onClick={[Function]}
+      type="button"
+    >
+      Random meal
+    </button>
+  </div>
+  <div>
+    <div
+      className="search__field"
+    >
+      <div>
+        Please specify desired 
+        category
+        :
+      </div>
+      <input
+        name="Category"
+        onChange={[Function]}
+        placeholder="e.g. 'beef', 'breakfast', 'side', etc."
+        required={true}
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+  <div
+    className="search__buttons"
+  >
+    <button
+      className="search__submit-btn"
+      type="submit"
+    >
+      Search
+    </button>
+    <button
+      className="search__submit-btn"
+      onClick={[Function]}
+      type="button"
+    >
+      Fill out your own recipe
+    </button>
+  </div>
+</form>
+`;

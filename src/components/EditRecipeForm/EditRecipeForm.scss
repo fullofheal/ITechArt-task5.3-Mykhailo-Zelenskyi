@@ -1,0 +1,44 @@
+.form {
+  span {
+    display: none;
+    font-size: 12px;
+    padding: 3px;
+    color: red;
+  }
+  input {
+    margin: 5px 0;
+    &:invalid ~ span {
+      display: block;
+    }
+  }
+  button {
+    margin: 5px;
+  }
+  &__label {
+    display: block;
+    &-video {
+      display: block;
+      margin-top: 20px;
+    }
+  }
+  &__instructions {
+    resize: none;
+    width: 550px;
+    height: 300px;
+    padding: 5px;
+  }
+  &__picture {
+    width: 300px;
+    margin: 0 auto;
+    img {
+      max-width: 100%;
+    }
+    input {
+      width: 100%;
+    }
+  }
+  &__ingredient {
+    display: flex;
+    column-gap: 20px;
+  }
+}

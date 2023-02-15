@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddRecipe matches snapshot 1`] = `
+<div
+  className="add__wrapper"
+  data-testid="AddRecipe"
+>
+  <h3>
+    Add your own recipe, or edit an uploaded one
+  </h3>
+  <form
+    className="form"
+    data-testid="EditRecipeForm"
+    onSubmit={[Function]}
+  >
+    <div
+      className="form__picture"
+    >
+      <img
+        alt=""
+        src=""
+      />
+      <label
+        className="form__label"
+        htmlFor="picture-url"
+      >
+        Picture url
+      </label>
+      <input
+        name="picture-url"
+        onChange={[Function]}
+        placeholder="Provide valid image url"
+        type="text"
+        value=""
+      />
+    </div>
+    <div>
+      <label
+        className="form__label"
+        htmlFor="name"
+      >
+        Name
+      </label>
+      <input
+        name="name"
+        onChange={[Function]}
+        pattern="[^#$^&*?><\\\\/0-9]+"
+        placeholder="Recipe name"
+        required={true}
+        type="text"
+        value=""
+      />
+      <span>
+        Only letters
+      </span>
+    </div>
+    <div>
+      <label
+        className="form__label"
+        htmlFor="tags"
+      >
+        Tags
+      </label>
+      <input
+        name="tags"
+        onChange={[Function]}
+        pattern="[A-Za-z, ]+"
+        placeholder="List associated tags"
+        type="text"
+        value=""
+      />
+      <span>
+        Only letters
+      </span>
+    </div>
+    <div>
+      <label
+        className="form__label"
+        htmlFor="country"
+      >
+        Country of origin
+      </label>
+      <input
+        name="country"
+        onChange={[Function]}
+        pattern="[A-Za-z ]+"
+        placeholder="List associated tags"
+        type="text"
+        value=""
+      />
+      <span>
+        Only letters
+      </span>
+    </div>
+    <label
+      className="form__label"
+      htmlFor="instructions"
+    >
+      Instructions
+    </label>
+    <textarea
+      className="form__instructions"
+      name="instructions"
+      onChange={[Function]}
+      placeholder="Provide detailed preparation instructions"
+      required={true}
+      value=""
+    />
+    <div
+      className="add-form__ingredients"
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        Add new ingredient
+      </button>
+    </div>
+    <label
+      className="form__label-video"
+      htmlFor="video-url"
+    >
+      Video url
+    </label>
+    <input
+      name="video-url"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <button
+      type="submit"
+    >
+      Submit recipe
+    </button>
+  </form>
+</div>
+`;
